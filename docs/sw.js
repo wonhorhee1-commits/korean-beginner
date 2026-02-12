@@ -1,9 +1,12 @@
-const CACHE_NAME = 'beginner-korean-v2';
+const CACHE_NAME = 'beginner-korean-v3';
 const ASSETS = [
   './',
   './index.html',
   './data/vocab.json',
-  './data/grammar.json'
+  './data/grammar.json',
+  './data/error_drills.json',
+  './data/reading_drills.json',
+  './data/dialogue_drills.json'
 ];
 
 // Install: cache all core assets
