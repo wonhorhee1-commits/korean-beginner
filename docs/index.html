@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>Korean for Beginners</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg: #faf7f2;
@@ -42,7 +45,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', 'Noto Sans KR', system-ui, -apple-system, sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -87,8 +90,17 @@ h2 {
   font-size: 1em;
   transition: all 0.15s;
   text-align: left;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  animation: menuSlideIn 0.3s ease-out both;
 }
-.menu button:hover { background: var(--surface2); border-color: var(--blue); }
+.menu button:nth-child(1) { animation-delay: 0s; }
+.menu button:nth-child(2) { animation-delay: 0.03s; }
+.menu button:nth-child(3) { animation-delay: 0.04s; }
+.menu button:nth-child(4) { animation-delay: 0.06s; }
+.menu button:nth-child(5) { animation-delay: 0.09s; }
+.menu button:nth-child(6) { animation-delay: 0.12s; }
+.menu button:nth-child(7) { animation-delay: 0.15s; }
+.menu button:hover { background: var(--surface2); border-color: var(--blue); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 .menu .num {
   display: inline-flex;
   align-items: center;
@@ -119,6 +131,7 @@ h2 {
   padding: 30px;
   margin: 15px 0;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .card-korean {
@@ -126,6 +139,7 @@ h2 {
   font-weight: bold;
   color: var(--text);
   margin-bottom: 8px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .card-english {
@@ -171,7 +185,7 @@ h2 {
   outline: none;
   transition: border-color 0.15s;
 }
-.answer-input:focus { border-color: var(--blue); }
+.answer-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(74,144,217,0.15); }
 .answer-input::placeholder { color: var(--dim); }
 
 /* Reveal */
@@ -181,6 +195,7 @@ h2 {
   border-radius: 12px;
   padding: 20px 25px;
   margin: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .reveal-answer {
@@ -241,8 +256,8 @@ h2 {
   font-size: 0.95em;
 }
 
-.rating button:hover { transform: translateY(-1px); }
-.rating button:active { transform: translateY(0); }
+.rating button:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.rating button:active { transform: scale(0.97); }
 
 .rating .btn-again { border-color: var(--red); }
 .rating .btn-again:hover { background: rgba(217,68,82,0.1); }
@@ -261,6 +276,7 @@ h2 {
 .rating .btn-easy .label { color: var(--cyan); font-weight: bold; }
 
 .rating .desc { color: var(--dim); font-size: 0.75em; }
+.rating .interval { color: var(--dim); font-size: 0.7em; margin-bottom: 2px; opacity: 0.7; }
 
 /* Progress bar */
 .progress-bar {
@@ -272,9 +288,10 @@ h2 {
 }
 .progress-fill {
   height: 100%;
-  background: var(--blue);
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
   border-radius: 2px;
   transition: width 0.3s;
+  box-shadow: 0 0 8px rgba(74,144,217,0.3);
 }
 
 /* Option grid */
@@ -295,9 +312,10 @@ h2 {
   font-size: 1.05em;
   transition: all 0.15s;
   text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 
-.option-btn:hover { background: var(--surface2); border-color: var(--blue); }
+.option-btn:hover { background: var(--surface2); border-color: var(--blue); box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
 .option-btn.correct { border-color: var(--green); background: rgba(58,157,92,0.1); color: var(--green); font-weight: bold; }
 .option-btn.wrong { border-color: var(--red); background: rgba(217,68,82,0.08); color: var(--red); }
 
@@ -360,6 +378,7 @@ h2 {
   padding: 25px;
   text-align: center;
   margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .summary h2 { margin-bottom: 15px; color: var(--blue); }
 
@@ -393,8 +412,9 @@ h2 {
   transition: all 0.15s;
 }
 .btn:hover { background: var(--surface2); border-color: var(--blue); }
-.btn-primary { background: var(--blue); border-color: var(--blue); color: #fff; font-weight: bold; }
-.btn-primary:hover { opacity: 0.9; }
+.btn-primary { background: linear-gradient(135deg, var(--blue), #818cf8); border-color: var(--blue); color: #fff; font-weight: bold; }
+.btn-primary:hover { background: linear-gradient(135deg, #5a9ee0, #a5b4fc); }
+.btn:active, .btn-primary:active { transform: scale(0.97); }
 
 .back-btn {
   background: none;
@@ -577,6 +597,38 @@ h2 {
   font-weight: bold;
 }
 
+/* Animations */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes correctPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(58,157,92,0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(58,157,92,0); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(3px); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes menuSlideIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card, .reveal, .listen-prompt, .cloze-sentence, .fill-sentence {
+  animation: slideIn 0.3s ease-out;
+}
+.result-correct { animation: correctPulse 0.6s ease-out; }
+.result-incorrect { animation: shake 0.4s ease-out; }
+.summary, .menu { animation: fadeIn 0.25s ease-out; }
+
 @media (max-width: 600px) {
   .container { padding: 12px; }
   .card-korean { font-size: 1.7em; }
@@ -680,6 +732,7 @@ class SRSEngine {
   }
 
   recordReview(id, quality) {
+    recordStudyDay();
     this.getCard(id).review(quality);
     this.save();
   }
@@ -806,6 +859,43 @@ if ('speechSynthesis' in window) {
   speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
 }
 
+// ===== INTERVAL PREDICTION =====
+function getNextInterval(card, quality) {
+  if (quality < GOOD) return 0.007;
+  const r = card ? card.repetitions : 0;
+  const ef = card ? card.ease_factor : 2.5;
+  if (r === 0) return 0.04;
+  if (r === 1) return 1;
+  if (r === 2) return 3;
+  return (card ? card.interval_days : 3) * ef;
+}
+
+function formatInterval(days) {
+  if (days < 0.04) return '10m';
+  if (days < 0.5) return Math.round(days * 24) + 'h';
+  if (days < 30) return Math.round(days) + 'd';
+  return Math.round(days / 30) + 'mo';
+}
+
+function ratingButtonsHtml(cardId, descs) {
+  const d = descs || {again: "didn't know", hard: 'struggled', good: 'knew it', easy: 'effortless'};
+  const card = srs.cards[cardId] || null;
+  const intervals = {
+    [AGAIN]: formatInterval(getNextInterval(card, AGAIN)),
+    [HARD]: formatInterval(getNextInterval(card, HARD)),
+    [GOOD]: formatInterval(getNextInterval(card, GOOD)),
+    [EASY]: formatInterval(getNextInterval(card, EASY)),
+  };
+  return `
+    <div class="rating">
+      <button class="btn-again" data-q="${AGAIN}"><div class="interval">${intervals[AGAIN]}</div><div class="label">Again</div><div class="desc">${d.again}</div></button>
+      <button class="btn-hard" data-q="${HARD}"><div class="interval">${intervals[HARD]}</div><div class="label">Hard</div><div class="desc">${d.hard}</div></button>
+      <button class="btn-good" data-q="${GOOD}"><div class="interval">${intervals[GOOD]}</div><div class="label">Good</div><div class="desc">${d.good}</div></button>
+      <button class="btn-easy" data-q="${EASY}"><div class="interval">${intervals[EASY]}</div><div class="label">Easy</div><div class="desc">${d.easy}</div></button>
+    </div>
+    <div class="shortcuts">1=Again  2=Hard  3=Good  4=Easy</div>`;
+}
+
 // ===== STREAK TRACKING =====
 function getStreak() {
   const data = JSON.parse(localStorage.getItem('beginner_korean_streak') || '{"count":0,"lastDate":""}');
@@ -896,7 +986,7 @@ function showMenu() {
   const streak = getStreak();
   const reviewedPct = totals.total > 0 ? Math.round(stats.total / totals.total * 100) : 0;
 
-  const streakHtml = streak > 0 ? `<div style="text-align:center;margin:8px 0"><span class="streak-badge">${streak} day${streak > 1 ? 's' : ''} streak</span></div>` : '';
+  const streakHtml = streak > 0 ? `<div style="text-align:center;margin:8px 0"><span class="streak-badge">\u{1F525} ${streak} day${streak > 1 ? 's' : ''} streak</span></div>` : '';
 
   const statsHtml = `
     <div class="stats-bar">
@@ -922,13 +1012,13 @@ function showMenu() {
     ${streakHtml}
     ${statsHtml}
     <div class="menu">
-      <button onclick="showCategorySelect('vocab')"><span class="num">1</span> Vocabulary Drill</button>
-      <button onclick="startMultipleChoice()"><span class="num">2</span> Multiple Choice Quiz</button>
-      <button onclick="showCategorySelect('grammar')"><span class="num">3</span> Grammar Practice</button>
-      <button onclick="startListeningDrill()"><span class="num">4</span> Listening Drill</button>
-      <button onclick="startMixedReview()"><span class="num">5</span> Mixed Review (weakest first)</button>
-      <button onclick="startClozeDrill()"><span class="num">6</span> Cloze Drill (fill the gap)</button>
-      <button onclick="showProgress()"><span class="num">7</span> View Progress</button>
+      <button onclick="showCategorySelect('vocab')"><span class="num">1</span> \u{1F4D6} Vocabulary Drill</button>
+      <button onclick="startMultipleChoice()"><span class="num">2</span> \u{2753} Multiple Choice Quiz</button>
+      <button onclick="showCategorySelect('grammar')"><span class="num">3</span> \u{270F}\u{FE0F} Grammar Practice</button>
+      <button onclick="startListeningDrill()"><span class="num">4</span> \u{1F3A7} Listening Drill</button>
+      <button onclick="startMixedReview()"><span class="num">5</span> \u{1F500} Mixed Review (weakest first)</button>
+      <button onclick="startClozeDrill()"><span class="num">6</span> \u{1F9E9} Cloze Drill (fill the gap)</button>
+      <button onclick="showProgress()"><span class="num">7</span> \u{1F4CA} View Progress</button>
     </div>
     <div class="timed-toggle${timedMode ? ' active' : ''}" onclick="toggleTimedMode()">
       <div class="switch"></div> Timed Mode ${timedMode ? 'ON' : 'OFF'}
@@ -1094,14 +1184,7 @@ function runVocabSession(cards) {
   }
 
   function ratingButtons() {
-    return `
-      <div class="rating">
-        <button class="btn-again" data-q="${AGAIN}"><div class="label">Again</div><div class="desc">didn't know</div></button>
-        <button class="btn-hard" data-q="${HARD}"><div class="label">Hard</div><div class="desc">struggled</div></button>
-        <button class="btn-good" data-q="${GOOD}"><div class="label">Good</div><div class="desc">knew it</div></button>
-        <button class="btn-easy" data-q="${EASY}"><div class="label">Easy</div><div class="desc">effortless</div></button>
-      </div>
-      <div class="shortcuts">1=Again  2=Hard  3=Good  4=Easy</div>`;
+    return ratingButtonsHtml(session[idx >= session.length ? session.length - 1 : idx].id);
   }
 
   function setupRating(id) {
@@ -1116,7 +1199,6 @@ function runVocabSession(cards) {
   }
 
   function rate(id, quality) {
-    recordStudyDay();
     srs.recordReview(id, quality);
     reviewed++;
     if (quality >= GOOD) correct++;
@@ -1246,14 +1328,7 @@ function runGrammarSession(cards) {
   }
 
   function ratingButtons() {
-    return `
-      <div class="rating">
-        <button class="btn-again" data-q="${AGAIN}"><div class="label">Again</div><div class="desc">didn't know</div></button>
-        <button class="btn-hard" data-q="${HARD}"><div class="label">Hard</div><div class="desc">struggled</div></button>
-        <button class="btn-good" data-q="${GOOD}"><div class="label">Good</div><div class="desc">knew it</div></button>
-        <button class="btn-easy" data-q="${EASY}"><div class="label">Easy</div><div class="desc">effortless</div></button>
-      </div>
-      <div class="shortcuts">1=Again  2=Hard  3=Good  4=Easy</div>`;
+    return ratingButtonsHtml(session[idx >= session.length ? session.length - 1 : idx].id);
   }
 
   function setupRating(id) {
@@ -1268,7 +1343,6 @@ function runGrammarSession(cards) {
   }
 
   function rate(id, quality) {
-    recordStudyDay();
     srs.recordReview(id, quality);
     reviewed++;
     if (quality >= GOOD) correct++;
@@ -1548,18 +1622,11 @@ function runMixedSession(cards) {
       <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
       ${guessHtml}
       <div class="reveal"><div class="reveal-answer">${escHtml(answer)}</div>${extra}</div>
-      <div class="rating">
-        <button class="btn-again" data-q="${AGAIN}"><div class="label">Again</div><div class="desc">didn't know</div></button>
-        <button class="btn-hard" data-q="${HARD}"><div class="label">Hard</div><div class="desc">struggled</div></button>
-        <button class="btn-good" data-q="${GOOD}"><div class="label">Good</div><div class="desc">knew it</div></button>
-        <button class="btn-easy" data-q="${EASY}"><div class="label">Easy</div><div class="desc">effortless</div></button>
-      </div>
-      <div class="shortcuts">1=Again  2=Hard  3=Good  4=Easy</div>`;
+      ${ratingButtonsHtml(id)}`;
 
     document.querySelectorAll('.rating button').forEach(btn => {
       btn.onclick = () => {
         const q = parseInt(btn.dataset.q);
-        recordStudyDay();
         srs.recordReview(id, q);
         reviewed++;
         if (q >= GOOD) correct++;
@@ -1571,7 +1638,6 @@ function runMixedSession(cards) {
       const map = {'1': AGAIN, '2': HARD, '3': GOOD, '4': EASY};
       if (map[e.key] !== undefined) {
         const q = map[e.key];
-        recordStudyDay();
         srs.recordReview(id, q);
         reviewed++;
         if (q >= GOOD) correct++;
@@ -1710,23 +1776,61 @@ function getDistractors(entry, cat, field) {
 // ===== SUMMARY =====
 function showSummary(reviewed, correct) {
   const acc = reviewed > 0 ? correct / reviewed : 0;
-  let comment, color;
-  if (acc >= 0.9) { comment = 'Amazing work!'; color = 'var(--green)'; }
-  else if (acc >= 0.7) { comment = 'Great job! Keep it up!'; color = 'var(--blue)'; }
-  else if (acc >= 0.5) { comment = 'Getting there! Practice makes perfect.'; color = 'var(--orange)'; }
-  else { comment = "Don't worry, these will come back for more practice!"; color = 'var(--red)'; }
+  const accPct = Math.round(acc * 100);
+  let comment, color, ringColor;
+  if (acc >= 0.9) { comment = 'Amazing work!'; color = 'var(--green)'; ringColor = '#3a9d5c'; }
+  else if (acc >= 0.7) { comment = 'Great job! Keep it up!'; color = 'var(--blue)'; ringColor = '#4a90d9'; }
+  else if (acc >= 0.5) { comment = 'Getting there! Practice makes perfect.'; color = 'var(--orange)'; ringColor = '#e08a3c'; }
+  else { comment = "Don't worry, these will come back for more practice!"; color = 'var(--red)'; ringColor = '#d94452'; }
+
+  const streak = getStreak();
+  const streakMsg = streak > 0 ? `<div style="margin-top:12px"><span class="streak-badge">\u{1F525} ${streak} day${streak > 1 ? 's' : ''} streak</span></div>` : '';
+
+  const r = 50, circ = 2 * Math.PI * r;
+  const offset = circ * (1 - acc);
 
   app.innerHTML = `
     <div class="summary">
       <h2>Session Complete</h2>
+      <div style="display:flex;justify-content:center;margin:15px 0">
+        <svg width="130" height="130" viewBox="0 0 130 130">
+          <circle cx="65" cy="65" r="${r}" fill="none" stroke="var(--surface2)" stroke-width="8"/>
+          <circle cx="65" cy="65" r="${r}" fill="none" stroke="${ringColor}" stroke-width="8"
+            stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${circ}"
+            transform="rotate(-90 65 65)" style="transition: stroke-dashoffset 1s ease-out"/>
+          <text x="65" y="65" text-anchor="middle" dominant-baseline="central"
+            fill="${ringColor}" font-size="28" font-weight="bold" class="acc-number">0%</text>
+        </svg>
+      </div>
       <div class="summary-stats">
-        <div class="summary-stat"><div class="value">${reviewed}</div><div class="label">Reviewed</div></div>
-        <div class="summary-stat"><div class="value">${correct}</div><div class="label">Correct</div></div>
-        <div class="summary-stat"><div class="value" style="color:${color}">${Math.round(acc*100)}%</div><div class="label">Accuracy</div></div>
+        <div class="summary-stat"><div class="value count-up" data-target="${reviewed}">0</div><div class="label">Reviewed</div></div>
+        <div class="summary-stat"><div class="value count-up" data-target="${correct}">0</div><div class="label">Correct</div></div>
       </div>
       <div class="comment">${comment}</div>
+      ${streakMsg}
     </div>
     <button class="btn btn-primary" onclick="showMenu()" style="width:100%">Back to Menu</button>`;
+
+  requestAnimationFrame(() => {
+    const ring = app.querySelector('circle:nth-child(2)');
+    if (ring) ring.style.strokeDashoffset = offset;
+  });
+
+  const duration = 600;
+  const start = performance.now();
+  function animateCountUp(ts) {
+    const elapsed = ts - start;
+    const t = Math.min(elapsed / duration, 1);
+    const ease = 1 - Math.pow(1 - t, 3);
+    app.querySelectorAll('.count-up').forEach(el => {
+      el.textContent = Math.round(ease * parseInt(el.dataset.target));
+    });
+    const accEl = app.querySelector('.acc-number');
+    if (accEl) accEl.textContent = Math.round(ease * accPct) + '%';
+    if (t < 1) requestAnimationFrame(animateCountUp);
+  }
+  requestAnimationFrame(animateCountUp);
+
   document.onkeydown = e => { if (e.key === 'Enter' || e.key === 'Escape') showMenu(); };
 }
 
@@ -1764,7 +1868,7 @@ function showProgress() {
   app.innerHTML = `
     <button class="back-btn" onclick="showMenu()">&#8592; Back</button>
     <h2 style="margin-bottom:20px">Progress</h2>
-    ${streak > 0 ? `<div style="text-align:center;margin-bottom:15px"><span class="streak-badge">${streak} day${streak > 1 ? 's' : ''} streak</span></div>` : ''}
+    ${streak > 0 ? `<div style="text-align:center;margin-bottom:15px"><span class="streak-badge">\u{1F525} ${streak} day${streak > 1 ? 's' : ''} streak</span></div>` : ''}
     <div class="summary-stats" style="margin-bottom:25px">
       <div class="summary-stat"><div class="value" style="color:var(--cyan)">${stats.total}</div><div class="label">Cards Seen</div></div>
       <div class="summary-stat"><div class="value" style="color:var(--orange)">${stats.due}</div><div class="label">Due Now</div></div>
