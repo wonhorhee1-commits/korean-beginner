@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Korean for Beginners</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -160,8 +160,8 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   border: 1px solid var(--border);
   background: var(--surface2);
@@ -181,7 +181,7 @@ h2 {
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--text);
-  font-size: 1.05em;
+  font-size: 16px;
   outline: none;
   transition: border-color 0.15s;
 }
@@ -288,7 +288,7 @@ h2 {
 .rating .btn-easy .label { color: var(--cyan); font-weight: bold; }
 
 .rating .desc { color: var(--dim); font-size: 0.75em; }
-.rating .interval { color: var(--dim); font-size: 0.7em; margin-bottom: 2px; opacity: 0.7; }
+.rating .interval { color: var(--dim); font-size: 0.8em; margin-bottom: 2px; opacity: 0.7; }
 
 /* Progress bar */
 .progress-bar {
@@ -434,7 +434,7 @@ h2 {
   color: var(--dim);
   cursor: pointer;
   font-size: 0.9em;
-  padding: 8px 0;
+  padding: 12px 8px;
   margin-bottom: 10px;
 }
 .back-btn:hover { color: var(--text); }
@@ -779,6 +779,15 @@ h2 {
   grid-template-columns: 1fr;
   gap: 8px;
   margin: 15px 0;
+}
+@media (max-width: 360px) {
+  .error-sentence { padding: 16px; }
+  .reading-passage { padding: 16px; }
+  .chat-bubble { padding: 10px 12px; }
+}
+@media (max-height: 500px) {
+  .menu button { padding: 10px 14px; }
+  .menu { gap: 4px; }
 }
 </style>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -1301,7 +1310,7 @@ function runVocabSession(cards) {
       <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
       ${timerHtml(15)}
       ${prompt}
-      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autofocus>
+      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
       <button class="show-answer-btn" id="show-answer">Show Answer</button>`;
 
     const input = app.querySelector('.answer-input');
@@ -1334,7 +1343,7 @@ function runVocabSession(cards) {
   }
 
   function ratingButtons() {
-    return ratingButtonsHtml(session[idx >= session.length ? session.length - 1 : idx].id);
+    return ratingButtonsHtml(cards[idx >= cards.length ? cards.length - 1 : idx].id);
   }
 
   function setupRating(id) {
@@ -1376,7 +1385,7 @@ function runGrammarSession(cards) {
       ${timerHtml(20)}
       <div class="card"><div class="card-korean">${escHtml(entry.pattern)}</div></div>
       <div class="card-prompt">What does this pattern mean?</div>
-      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autofocus>
+      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
       <button class="show-answer-btn" id="show-answer">Show Answer</button>`;
 
     const input = app.querySelector('.answer-input');
@@ -1411,7 +1420,7 @@ function runGrammarSession(cards) {
       drillHtml = `
         <div class="fill-prompt">Fill in the blank:</div>
         <div class="fill-sentence">${escHtml(entry.drill.prompt)}</div>
-        <input class="answer-input" id="drill-input" placeholder="Your answer" autofocus>
+        <input class="answer-input" id="drill-input" placeholder="Your answer" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
         <div id="drill-result" class="hidden"></div>`;
     }
 
@@ -1481,7 +1490,7 @@ function runGrammarSession(cards) {
   }
 
   function ratingButtons() {
-    return ratingButtonsHtml(session[idx >= session.length ? session.length - 1 : idx].id);
+    return ratingButtonsHtml(cards[idx >= cards.length ? cards.length - 1 : idx].id);
   }
 
   function setupRating(id) {
@@ -1725,7 +1734,7 @@ function runMixedSession(cards) {
       <div class="counter"><span class="cat-badge">${escHtml(cat)}</span> &nbsp; ${progress}</div>
       <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
       ${prompt}
-      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autofocus>
+      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
       <button class="show-answer-btn" id="show-answer">Show Answer</button>`;
 
     const input = app.querySelector('.answer-input');
@@ -1749,7 +1758,7 @@ function runMixedSession(cards) {
       <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
       <div class="card"><div class="card-korean">${escHtml(entry.pattern)}</div></div>
       <div class="card-prompt">What does this pattern mean?</div>
-      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autofocus>
+      <input class="answer-input" placeholder="Your answer (Enter to reveal)" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
       <button class="show-answer-btn" id="show-answer">Show Answer</button>`;
 
     const input = app.querySelector('.answer-input');
@@ -1969,7 +1978,7 @@ function startErrorCorrection() {
         <div class="korean">${escHtml(drill.incorrect)}</div>
       </div>
       <div class="card-prompt">Find and fix the error:</div>
-      <input class="answer-input" placeholder="Type the corrected sentence (Enter to check)" autofocus>
+      <input class="answer-input" placeholder="Type the corrected sentence (Enter to check)" autocorrect="off" autocapitalize="off" spellcheck="false" autofocus>
       <button class="show-answer-btn" id="show-answer">Show Answer</button>`;
 
     const input = app.querySelector('.answer-input');

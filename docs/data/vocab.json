@@ -293,6 +293,111 @@
       "example": "잘 부탁합니다. 많이 도와주세요.",
       "example_en": "I'm counting on you. Please help me a lot.",
       "notes": "부탁(付託 entrust). 부(付 attach) appears in 부부(couple), 부속(attachment). 탁(託 entrust) appears in 의탁(reliance). 'Please' when asking favor."
+    },
+    {
+      "korean": "추석 잘 보내세요",
+      "english": "happy Chuseok / have a good Chuseok",
+      "example": "추석 잘 보내세요! 가족들과 즐거운 시간 되세요.",
+      "example_en": "Happy Chuseok! Have a wonderful time with your family.",
+      "notes": "추석(秋夕 autumn evening). Major harvest festival (lunar Aug 15). 추(秋 autumn) appears in 추운(cold), 추억(memory). Traditional greeting before holiday."
+    },
+    {
+      "korean": "메리 크리스마스",
+      "english": "Merry Christmas",
+      "example": "메리 크리스마스! 좋은 성탄절 보내세요.",
+      "example_en": "Merry Christmas! Have a good Christmas.",
+      "notes": "English loan word. Korean Christians also say 성탄절 축하해요(聖誕節 holy birth festival). Common in urban areas. Exchange gifts like 선물(禮物)."
+    },
+    {
+      "korean": "오래간만이에요",
+      "english": "it's been so long / long time no see (emphasis)",
+      "example": "오래간만이에요! 몇 년 만이에요?",
+      "example_en": "It's been so long! How many years has it been?",
+      "notes": "Emphatic form of 오랜만이에요. 오래(久 long) + 간(間 interval) + 만(間 gap). Used when reunion after very long time (years). Shows strong emotion."
+    },
+    {
+      "korean": "처음 뵙겠습니다",
+      "english": "how do you do / pleased to meet you (formal)",
+      "example": "처음 뵙겠습니다. 저는 김민수라고 합니다.",
+      "example_en": "How do you do. My name is Kim Minsu.",
+      "notes": "처음(first time) + 뵙다(see, honorific). Very formal first greeting to elders/superiors. 뵙(見) is honorific form of 보다. Often pair with 잘 부탁합니다."
+    },
+    {
+      "korean": "안녕",
+      "english": "hi / bye (casual)",
+      "example": "안녕! 오늘 학교에서 봐!",
+      "example_en": "Hi! See you at school today!",
+      "notes": "안녕(安寧 peace). Casual form without 하세요. Used with close friends/younger people. Can mean both 'hi' and 'bye' depending on context. Never with elders."
+    },
+    {
+      "korean": "잘 가",
+      "english": "bye / go well (casual)",
+      "example": "그럼 잘 가! 내일 봐!",
+      "example_en": "Then bye! See you tomorrow!",
+      "notes": "Native Korean. 잘(well) + 가다(to go). Very casual farewell to close friends/younger people. Response: 잘 있어(stay well). Never formal situations."
+    },
+    {
+      "korean": "잠시만요",
+      "english": "just a moment / one second",
+      "example": "잠시만요, 금방 갈게요.",
+      "example_en": "Just a moment, I'll be right there.",
+      "notes": "잠시(暫時 moment). 잠(暫 brief) appears in 잠깐(briefly). 시(時 time) appears in 시간(time). Polite 'wait a moment.' Casual: 잠깐만."
+    },
+    {
+      "korean": "고생하셨어요",
+      "english": "you worked hard / thanks for your hard work",
+      "example": "늦게까지 일하셨네요. 고생하셨어요.",
+      "example_en": "You worked until late. Thanks for your hard work.",
+      "notes": "고생(苦生 bitter life/hardship). 고(苦 bitter) appears in 고통(pain), 쓰다(bitter). 생(生 life) appears in 생활(life). Shows appreciation for effort."
+    },
+    {
+      "korean": "즐거운 주말 보내세요",
+      "english": "have a nice weekend",
+      "example": "금요일이네요! 즐거운 주말 보내세요.",
+      "example_en": "It's Friday! Have a nice weekend.",
+      "notes": "즐겁다(enjoyable) + 주말(週末 weekend). 주(週 week) appears in 매주(every week). 말(末 end) appears in 기말(end of term). Common Friday farewell."
+    },
+    {
+      "korean": "좋은 하루 되세요",
+      "english": "have a nice day",
+      "example": "그럼 좋은 하루 되세요! 또 연락해요.",
+      "example_en": "Then have a nice day! I'll contact you again.",
+      "notes": "Native Korean farewell. 좋다(good) + 하루(one day) + 되다(to become). Modern polite goodbye. Common in service settings, text messages, casual farewells."
+    },
+    {
+      "korean": "안부 전해 주세요",
+      "english": "please give my regards / say hello for me",
+      "example": "부모님께 안부 전해 주세요.",
+      "example_en": "Please give my regards to your parents.",
+      "notes": "안부(安否 well-being). 안(安 peace) + 부(否 no). Asking someone to pass greetings. Response: 네, 그렇게 할게요(yes, I'll do that)."
+    },
+    {
+      "korean": "몸조리 잘하세요",
+      "english": "take good care of yourself / get well soon",
+      "example": "아프시다니 안타까워요. 몸조리 잘하세요.",
+      "example_en": "I'm sorry to hear you're sick. Please take good care of yourself.",
+      "notes": "몸(body) + 조리(調理 manage/care). Native Korean + Hanja. 조(調 tune/manage) appears in 조절(control). Said to sick/recovering person or new mothers."
+    },
+    {
+      "korean": "기분 좋은 하루",
+      "english": "have a pleasant day",
+      "example": "날씨가 좋네요. 기분 좋은 하루 보내세요!",
+      "example_en": "The weather is nice. Have a pleasant day!",
+      "notes": "기분(氣分 mood/feeling) + 좋다(good) + 하루(one day). 기(氣 energy) appears in 공기(air), 날씨(weather). Cheerful morning greeting, casual farewell."
+    },
+    {
+      "korean": "잘 다녀오세요",
+      "english": "have a safe trip / go and come back safely",
+      "example": "회사 잘 다녀오세요. 저녁에 봐요.",
+      "example_en": "Have a safe trip to work. See you in the evening.",
+      "notes": "잘(well) + 다녀오다(go and return). Said by person staying to person leaving. Response: 잘 다녀오겠습니다. Common family/couple phrase. Shows care."
+    },
+    {
+      "korean": "감기 조심하세요",
+      "english": "be careful not to catch a cold",
+      "example": "날씨가 추워졌어요. 감기 조심하세요.",
+      "example_en": "The weather got cold. Be careful not to catch a cold.",
+      "notes": "감기(感氣 cold/flu) + 조심하다(be careful). 감(感 feeling) appears in 감사(thanks). Seasonal greeting (fall/winter). Shows concern for other's health."
     }
   ],
   "자기소개 (Self-Introduction)": [
@@ -519,6 +624,153 @@
       "example": "제 별명은 '곰돌이'예요. 친구들이 그렇게 불러요.",
       "example_en": "My nickname is 'teddy bear.' My friends call me that.",
       "notes": "별명(別名 nickname). 별(別 separate) appears in 특별(special), 별도(separately). 명(名 name) appears in 이름(name), 유명(famous)."
+    },
+    {
+      "korean": "취미",
+      "english": "hobby",
+      "example": "제 취미는 사진 찍는 거예요.",
+      "example_en": "My hobby is taking photos.",
+      "notes": "취미(趣味 hobby). 취(趣 interest) appears in 흥미(interest). 미(味 taste) appears in 의미(meaning), 맛(taste). Question: 취미가 뭐예요?"
+    },
+    {
+      "korean": "운동하다",
+      "english": "to exercise / to work out",
+      "example": "저는 매일 아침 운동해요. 건강에 좋아요.",
+      "example_en": "I exercise every morning. It's good for health.",
+      "notes": "운동(運動 exercise). 운(運 move) appears in 운전(driving), 행운(luck). 동(動 move) appears in 동작(movement), 행동(behavior). To exercise/play sports."
+    },
+    {
+      "korean": "독서하다",
+      "english": "to read (books) / to do reading",
+      "example": "주말에 독서하는 걸 좋아해요.",
+      "example_en": "I like reading on weekends.",
+      "notes": "독서(讀書 reading). 독(讀 read) appears in 독자(reader). 서(書 book) appears in 서점(bookstore), 교과서(textbook). More formal than 책 읽다."
+    },
+    {
+      "korean": "여행하다",
+      "english": "to travel",
+      "example": "저는 여행하는 걸 정말 좋아해요. 새로운 곳을 보고 싶어요.",
+      "example_en": "I really like traveling. I want to see new places.",
+      "notes": "여행(旅行 travel). 여(旅 journey) appears in 여권(passport), 여관(inn). 행(行 go) appears in 비행기(airplane), 은행(bank). To travel."
+    },
+    {
+      "korean": "음악 듣다",
+      "english": "to listen to music",
+      "example": "저는 음악 듣는 걸 좋아해요. 주로 케이팝을 들어요.",
+      "example_en": "I like listening to music. I mainly listen to K-pop.",
+      "notes": "음악(音樂 music) + 듣다(to listen). 음(音 sound) appears in 소음(noise), 발음(pronunciation). 악(樂 music) appears in 악기(instrument). Common hobby phrase."
+    },
+    {
+      "korean": "영화 보다",
+      "english": "to watch movies",
+      "example": "주말마다 영화 봐요. 액션 영화를 제일 좋아해요.",
+      "example_en": "I watch movies every weekend. I like action movies the most.",
+      "notes": "영화(映畫 movie) + 보다(to watch). 영(映 reflect) appears in 상영(screening). 화(畫 picture) appears in 그림(picture), 만화(cartoon). Watch films."
+    },
+    {
+      "korean": "요리하다",
+      "english": "to cook",
+      "example": "저는 요리하는 걸 좋아해요. 주로 한식을 만들어요.",
+      "example_en": "I like cooking. I mainly make Korean food.",
+      "notes": "요리(料理 cooking). 요(料 material) appears in 재료(ingredient). 리(理 manage) appears in 관리(management), 처리(processing). To cook/prepare food."
+    },
+    {
+      "korean": "게임하다",
+      "english": "to play games / to game",
+      "example": "친구들이랑 같이 게임해요. 재미있어요.",
+      "example_en": "I play games with my friends. It's fun.",
+      "notes": "English loan 'game' + 하다. Modern hobby phrase. Related: 게임 중(gaming), 게임기(game console), 컴퓨터 게임(computer games). Common among youth."
+    },
+    {
+      "korean": "그림 그리다",
+      "english": "to draw / to paint pictures",
+      "example": "어릴 때부터 그림 그리는 걸 좋아했어요.",
+      "example_en": "I've liked drawing since I was young.",
+      "notes": "Native Korean 그림(picture) + 그리다(to draw). Related: 그림책(picture book), 화가(畫家 painter). Popular creative hobby, common self-introduction phrase."
+    },
+    {
+      "korean": "노래하다",
+      "english": "to sing",
+      "example": "저는 노래하는 걸 좋아해요. 노래방 자주 가요.",
+      "example_en": "I like singing. I go to karaoke often.",
+      "notes": "Native Korean 노래(song) + 하다. Related: 노래방(karaoke), 노래 부르다(to sing a song), 가수(singer). Very common Korean social activity."
+    },
+    {
+      "korean": "춤추다",
+      "english": "to dance",
+      "example": "저는 춤추는 걸 좋아해요. 케이팝 댄스를 배워요.",
+      "example_en": "I like dancing. I'm learning K-pop dance.",
+      "notes": "Native Korean. 춤(dance) + 추다(to do). Related: 춤을 추다(to do dance), 무용(舞踊 dance art), 댄서(dancer). Popular hobby, especially K-pop dance."
+    },
+    {
+      "korean": "성함",
+      "english": "name (honorific)",
+      "example": "성함이 어떻게 되세요?",
+      "example_en": "What is your name? (polite)",
+      "notes": "성함(姓銜 surname + title). Honorific form of 이름. 성(姓 surname) appears in 성씨(family name). 함(銜 title). Use for elders/strangers, never for self."
+    },
+    {
+      "korean": "몇 살",
+      "english": "how old / how many years old",
+      "example": "몇 살이에요? 저는 스물다섯 살이에요.",
+      "example_en": "How old are you? I'm 25 years old.",
+      "notes": "Native Korean counter. 몇(how many) + 살(native Korean age counter). Direct question can be rude to elders. Better: 연세가 어떻게 되세요?(for elders)."
+    },
+    {
+      "korean": "출신",
+      "english": "origin / from (school, hometown)",
+      "example": "대학교 출신이 어디세요? 저는 서울대 출신이에요.",
+      "example_en": "Where are you from (university)? I'm from Seoul National University.",
+      "notes": "출신(出身 origin). 출(出 exit/come from) appears in 출발(departure), 출국(leaving country). 신(身 body/person) appears in 신체(body). School/hometown origin."
+    },
+    {
+      "korean": "살다",
+      "english": "to live / to reside",
+      "example": "저는 서울에 살아요. 3년째 살고 있어요.",
+      "example_en": "I live in Seoul. I've been living here for 3 years.",
+      "notes": "Native Korean. To live/reside. Related: 생활(生活 life), 살림(household). Common question: 어디에 살아요?(Where do you live?). Important self-intro verb."
+    },
+    {
+      "korean": "가족",
+      "english": "family",
+      "example": "우리 가족은 네 명이에요. 부모님, 언니, 그리고 저예요.",
+      "example_en": "My family is four people. My parents, older sister, and me.",
+      "notes": "가족(家族 family). 가(家 house) appears in 집(house), 가정(household). 족(族 clan) appears in 민족(ethnicity). Question: 가족이 몇 명이에요?"
+    },
+    {
+      "korean": "외동",
+      "english": "only child",
+      "example": "저는 외동이에요. 형제자매가 없어요.",
+      "example_en": "I'm an only child. I don't have siblings.",
+      "notes": "외동(外童 outside child). 외(外 outside) appears in 외출(going out), 외국(foreign country). 동(童 child) appears in 아동(children). Only child/single child."
+    },
+    {
+      "korean": "형제자매",
+      "english": "siblings / brothers and sisters",
+      "example": "형제자매가 있어요? 저는 동생 한 명 있어요.",
+      "example_en": "Do you have siblings? I have one younger sibling.",
+      "notes": "형제(兄弟 brothers) + 자매(姉妹 sisters). 형(兄 older brother) + 제(弟 younger brother) + 자(姉 older sister) + 매(妹 younger sister). All siblings combined."
+    },
+    {
+      "korean": "활발하다",
+      "english": "to be lively / active / outgoing",
+      "example": "저는 성격이 활발해요. 사람들과 어울리는 걸 좋아해요.",
+      "example_en": "I have a lively personality. I like hanging out with people.",
+      "notes": "활발(活潑 lively). 활(活 live) appears in 생활(life), 활동(activity). 발(潑 vigorous). Opposite: 조용하다(quiet). Positive personality description."
+    },
+    {
+      "korean": "조용하다",
+      "english": "to be quiet / calm",
+      "example": "저는 조용한 편이에요. 시끄러운 걸 안 좋아해요.",
+      "example_en": "I'm on the quiet side. I don't like noisy things.",
+      "notes": "조용(靜) native + 하다. Related to 조(調 tune) + 용(用 use) originally. Opposite: 시끄럽다(noisy), 활발하다(lively). Common personality descriptor."
+    },
+    {
+      "korean": "부지런하다",
+      "english": "to be diligent / hardworking / industrious",
+      "example": "저는 부지런해요. 매일 일찍 일어나요.",
+      "example_en": "I'm diligent. I wake up early every day.",
+      "notes": "Native Korean. Opposite: 게으르다(lazy). Related to work ethic. 부지런히(diligently). Positive trait in Korean culture, valued quality for self-introduction."
     }
   ],
   "숫자 & 세기 (Numbers & Counting)": [
@@ -1258,6 +1510,111 @@
       "example": "요즘은 핵가족이 많아요.",
       "example_en": "These days nuclear families are common.",
       "notes": "핵(核 core/nuclear) appears in 핵심(core/essence), 원자핵(atomic nucleus). 가족(family). Nuclear family (parents + children only). Modern standard in Korea. Related: 대가족(extended family). Most Korean households now 핵가족."
+    },
+    {
+      "korean": "양어머니",
+      "english": "adoptive mother; stepmother",
+      "example": "양어머니께서 저를 잘 돌봐 주세요.",
+      "example_en": "My adoptive mother takes good care of me.",
+      "notes": "양(養 raise/adopt) + 어머니(mother). Adoptive or stepmother. Formal, respectful term. Related: 양아버지(adoptive father), 양부모(adoptive parents). Modern Korea has increasing adoption rates."
+    },
+    {
+      "korean": "양아버지",
+      "english": "adoptive father; stepfather",
+      "example": "양아버지가 제 학교에 오셨어요.",
+      "example_en": "My adoptive father came to my school.",
+      "notes": "양(養 raise/adopt) + 아버지(father). Adoptive or stepfather. Formal, respectful term. Related: 양어머니(adoptive mother), 입양(adoption). Blended families increasingly common."
+    },
+    {
+      "korean": "시누이",
+      "english": "husband's sister",
+      "example": "시누이가 우리 집에 놀러 왔어요.",
+      "example_en": "My husband's sister came to visit us.",
+      "notes": "시(媤 husband's family) + 누이(sister). Husband's sister. Important family relationship. Related: 시어머니(mother-in-law), 시아버지(father-in-law), 시댁(husband's family home). Complex traditional dynamics."
+    },
+    {
+      "korean": "처형",
+      "english": "wife's older sister",
+      "example": "처형이 명절에 선물을 보내 줬어요.",
+      "example_en": "My wife's older sister sent us a gift on the holiday.",
+      "notes": "처(妻 wife) + 형(姊 older sister). Wife's older sister. Related: 처제(wife's younger sister), 처남(wife's brother), 처가(wife's family home). Must show respect. Respectful: 처형님."
+    },
+    {
+      "korean": "돌보다",
+      "english": "to take care of; to look after",
+      "example": "할머니를 잘 돌봐 드려야 해요.",
+      "example_en": "We need to take good care of grandmother.",
+      "notes": "Native Korean 돌(around) + 보다(to see/watch). To take care of, look after. Common: 아이를 돌보다(care for child), 환자를 돌보다(care for patient). Important family duty. Noun: 돌봄(care)."
+    },
+    {
+      "korean": "키우다",
+      "english": "to raise; to bring up (children/pets)",
+      "example": "부모님이 저를 잘 키워 주셨어요.",
+      "example_en": "My parents raised me well.",
+      "notes": "Native Korean. To raise, bring up. Used for children, pets, plants. Common: 아이를 키우다(raise children), 강아지를 키우다(raise a puppy). Different from 자라다(to grow up)."
+    },
+    {
+      "korean": "반려동물",
+      "english": "companion animal; pet",
+      "example": "반려동물을 키우는 가족이 많아요.",
+      "example_en": "Many families have companion animals.",
+      "notes": "반려(伴侶 companion) + 동물(animal). Companion animal, pet. Modern, respectful term replacing 애완동물. Common: 반려견(companion dog), 반려묘(companion cat). Treated as family members."
+    },
+    {
+      "korean": "동서",
+      "english": "siblings' spouses to each other",
+      "example": "동서와 함께 시장에 갔어요.",
+      "example_en": "I went to the market with my co-sister-in-law.",
+      "notes": "동(同 same) + 서(壻 son-in-law/婿). Relationship between siblings' spouses. Brothers' wives call each other 동서. Complex but important family term. Respectful: 동서 사이(co-in-law relationship)."
+    },
+    {
+      "korean": "상속",
+      "english": "inheritance; succession",
+      "example": "재산을 자녀들에게 상속했어요.",
+      "example_en": "They passed down the property to their children.",
+      "notes": "상(相 mutual) + 속(續 continue). Inheritance, succession. Legal term. Verb: 상속하다(to inherit), 상속받다(to receive inheritance). Common: 상속세(inheritance tax), 상속권(inheritance rights)."
+    },
+    {
+      "korean": "제사",
+      "english": "ancestral rite; memorial service",
+      "example": "명절에 제사를 지내요.",
+      "example_en": "We perform ancestral rites on holidays.",
+      "notes": "제(祭 ritual/ceremony) + 사(祀 worship). Ancestral rite, memorial service. Important Korean tradition honoring deceased ancestors. Verb: 제사를 지내다(perform rites). Related: 차례(holiday rite), 제사상(ritual table)."
+    },
+    {
+      "korean": "친척",
+      "english": "relative; relation",
+      "example": "설날에 친척들이 모여요.",
+      "example_en": "Relatives gather on Lunar New Year.",
+      "notes": "친(親 親 intimate/related) + 척(戚 relative). Relative, relation. General term for extended family beyond immediate. Common: 먼 친척(distant relative), 가까운 친척(close relative). Important in Korean culture."
+    },
+    {
+      "korean": "시집",
+      "english": "husband's family; marrying into husband's family",
+      "example": "시집을 잘 가야 행복해요.",
+      "example_en": "You should marry into a good family to be happy.",
+      "notes": "시(媤 husband's family) + 집(house/family). Husband's family, bride's new family. Traditional concept. Verb: 시집가다(for woman to marry). Related: 시댁(husband's family home), 시집살이(living with in-laws)."
+    },
+    {
+      "korean": "같이",
+      "english": "together; along with",
+      "example": "가족이 같이 저녁을 먹어요.",
+      "example_en": "The family eats dinner together.",
+      "notes": "Native Korean. Together, along with. Synonym: 함께(together, more formal). Common: 같이 살다(live together), 같이 가다(go together). Family time: 가족이 같이 시간을 보내다."
+    },
+    {
+      "korean": "입양하다",
+      "english": "to adopt (a child)",
+      "example": "아이를 입양해서 키우고 있어요.",
+      "example_en": "We adopted a child and are raising them.",
+      "notes": "입(入 enter) + 양(養 raise/nurture). To adopt a child. Noun: 입양(adoption). Common: 입양 가족(adoptive family), 국제 입양(international adoption). Related: 입양아(adopted child)."
+    },
+    {
+      "korean": "세대",
+      "english": "generation; household",
+      "example": "우리 세대와 부모님 세대는 생각이 달라요.",
+      "example_en": "Our generation and our parents' generation think differently.",
+      "notes": "세(世 generation/world) + 대(代 generation/era). Generation, household. Common: 1세대(first generation), 젊은 세대(young generation), 3세대 가족(three-generation family). Also used for counting households."
     }
   ],
   "음식 & 음료 (Food & Drinks)": [
@@ -2172,6 +2529,111 @@
       "example": "땅콩 알레르기가 있어요.",
       "example_en": "I have a peanut allergy.",
       "notes": "알레르기 from German 'Allergie.' Important phrase for dietary restrictions. List allergies: 땅콩(peanut), 새우(shrimp), 우유(milk), 계란(egg), 밀(wheat) + 알레르기."
+    },
+    {
+      "korean": "물수건",
+      "english": "wet towel",
+      "example": "물수건 좀 주세요.",
+      "example_en": "Can I get a wet towel, please?",
+      "notes": "Native Korean compound. 물(water) + 수건(towel). Provided at restaurants before meals for hand cleaning. Hot towels common in Korean dining culture."
+    },
+    {
+      "korean": "국물",
+      "english": "soup broth",
+      "example": "국물이 시원해요.",
+      "example_en": "The broth is refreshing.",
+      "notes": "Native Korean. 국(soup) + 물(water). 시원하다 for broth means 'refreshing' not 'cool.' Common: 국물 요리(soup dishes), 국물 없이(without broth)."
+    },
+    {
+      "korean": "양념",
+      "english": "seasoning / sauce",
+      "example": "양념을 더 넣을까요?",
+      "example_en": "Should I add more seasoning?",
+      "notes": "Native Korean. Common in 양념 치킨(seasoned chicken), 양념장(sauce), 양념하다(to season). Korean cuisine heavily relies on complex seasonings."
+    },
+    {
+      "korean": "분식집",
+      "english": "snack bar / casual eatery",
+      "example": "점심은 분식집에서 먹었어요.",
+      "example_en": "I ate lunch at a snack bar.",
+      "notes": "분(粉 powder/flour) appears in 밀가루(flour). 식(食 food) + 집(house). Serves 떡볶이, 김밥, 라면 etc. Budget-friendly Korean fast food."
+    },
+    {
+      "korean": "포장마차",
+      "english": "street food cart / tent bar",
+      "example": "비 오는 날 포장마차에서 어묵 먹었어요.",
+      "example_en": "I ate fish cake at a street cart on a rainy day.",
+      "notes": "포장(包裝 wrapping/tent) + 마차(馬車 cart). Orange tent bars serving 소주, 어묵, 라면. Iconic Korean street food culture, especially at night."
+    },
+    {
+      "korean": "고기 구워 드릴까요?",
+      "english": "should I grill the meat for you?",
+      "example": "고기 구워 드릴까요? 아니면 직접 구우시겠어요?",
+      "example_en": "Should I grill the meat for you? Or will you grill it yourself?",
+      "notes": "Phrase at Korean BBQ restaurants. 굽다(to grill) + 드리다(humble 'give'). Staff may offer to cook, especially for first-timers. Polite to offer to grill for elders."
+    },
+    {
+      "korean": "더 익혀 주세요",
+      "english": "please cook it more",
+      "example": "고기를 더 익혀 주세요.",
+      "example_en": "Please cook the meat more.",
+      "notes": "익다(to cook/ripen) + 히다(causative). Important if meat is undercooked. Opposite: 덜 익혀 주세요(less cooked). Related: 잘 익다(well-cooked)."
+    },
+    {
+      "korean": "숟가락",
+      "english": "spoon",
+      "example": "숟가락 하나 더 주세요.",
+      "example_en": "Please give me one more spoon.",
+      "notes": "Native Korean. Related: 젓가락(chopsticks). Korean spoons are flat and long, used for rice and soup. Cultural: never stick spoon upright in rice (funeral ritual)."
+    },
+    {
+      "korean": "젓가락",
+      "english": "chopsticks",
+      "example": "젓가락 사용법을 배우고 있어요.",
+      "example_en": "I'm learning how to use chopsticks.",
+      "notes": "Native Korean. Korean chopsticks are metal and flat, harder to use than wooden ones. Also called 젓가락질(chopstick skill). Related: 숟가락(spoon)."
+    },
+    {
+      "korean": "그릇",
+      "english": "bowl / dish / plate",
+      "example": "빈 그릇을 치워 주세요.",
+      "example_en": "Please clear the empty dishes.",
+      "notes": "Native Korean. General term for all tableware. 빈 그릇(empty bowl), 그릇을 씻다(wash dishes). 기(器 vessel) appears in 공기(bowl), 용기(container)."
+    },
+    {
+      "korean": "컵",
+      "english": "cup / glass",
+      "example": "물 컵이 필요해요.",
+      "example_en": "I need a water glass.",
+      "notes": "Loanword from English 'cup.' Used for all drinking vessels. 종이컵(paper cup), 유리컵(glass cup). Related: 잔(traditional counter for cups)."
+    },
+    {
+      "korean": "냅킨",
+      "english": "napkin",
+      "example": "냅킨 좀 더 주세요.",
+      "example_en": "Can I get more napkins, please?",
+      "notes": "Loanword from English 'napkin.' Also: 휴지(tissue/napkin, native term). Korean restaurants often provide both wet towels (물수건) and paper napkins."
+    },
+    {
+      "korean": "예약",
+      "english": "reservation",
+      "example": "예약하고 갈까요?",
+      "example_en": "Should we make a reservation before going?",
+      "notes": "예(豫 prepare) appears in 예정(plan), 예상(expectation). 약(約 promise) appears in 약속(promise), 계약(contract). Say: 예약했어요(reserved), 예약 이름(name for reservation)."
+    },
+    {
+      "korean": "카드 되나요?",
+      "english": "do you take cards?",
+      "example": "죄송한데 카드 되나요? 현금이 없어요.",
+      "example_en": "Excuse me, do you take cards? I don't have cash.",
+      "notes": "Phrase. 카드(card) + 되다(to work/be okay). Most Korean restaurants accept cards, even small ones. Alternative: 카드 돼요?, 카드 결제 가능해요?"
+    },
+    {
+      "korean": "영수증",
+      "english": "receipt",
+      "example": "영수증 주세요.",
+      "example_en": "Please give me a receipt.",
+      "notes": "영(領 receive) appears in 영토(territory), 영향(influence). 수(受 accept) + 증(證 proof) appears in 증명(proof), 보증(guarantee). Essential for expenses/returns."
     }
   ],
   "시간 & 요일 (Time & Days)": [
@@ -10549,6 +11011,111 @@
       "example": "비행기에 위험물은 반입할 수 없어요.",
       "example_en": "You cannot bring hazardous materials onto the plane.",
       "notes": "위험(danger) + 물(物 thing/substance). Hazardous material, dangerous substance. Labels required. Restricted on public transportation."
+    },
+    {
+      "korean": "조심하다",
+      "english": "to be careful; to watch out",
+      "example": "길을 건널 때 조심하세요.",
+      "example_en": "Be careful when crossing the street.",
+      "notes": "조(操 handle) + 심(心 heart/mind). To be careful, watch out. Common warning: 조심하세요!(Be careful!). Related: 조심스럽다(cautious), 주의하다(pay attention)."
+    },
+    {
+      "korean": "구명보트",
+      "english": "lifeboat; rescue boat",
+      "example": "배에는 구명보트가 준비되어 있어요.",
+      "example_en": "The ship has lifeboats prepared.",
+      "notes": "구(救 rescue) + 명(命 life) + 보트(boat loanword). Lifeboat, rescue boat. Safety equipment on ships. Used in maritime emergencies. Related: 구명조끼(life jacket), 구조대(rescue team)."
+    },
+    {
+      "korean": "구명조끼",
+      "english": "life jacket; life vest",
+      "example": "배에 타기 전에 구명조끼를 입으세요.",
+      "example_en": "Put on a life jacket before boarding the boat.",
+      "notes": "구(救 rescue) + 명(命 life) + 조끼(vest). Life jacket, life vest. Required on boats. Emergency equipment. Verb: 구명조끼를 입다(wear life jacket)."
+    },
+    {
+      "korean": "응급",
+      "english": "emergency; urgent",
+      "example": "응급 환자가 먼저예요.",
+      "example_en": "Emergency patients come first.",
+      "notes": "응(應 respond) + 급(急 urgent). Emergency, urgent. Common: 응급실(emergency room), 응급처치(first aid), 응급 상황(emergency situation). Must act quickly in 응급."
+    },
+    {
+      "korean": "피해",
+      "english": "damage; harm; victim",
+      "example": "태풍으로 큰 피해를 입었어요.",
+      "example_en": "We suffered great damage from the typhoon.",
+      "notes": "피(被 suffer/receive) + 해(害 harm). Damage, harm, victim. Verb: 피해를 입다(suffer damage). Related: 피해자(victim), 피해 규모(extent of damage). Natural disasters cause 피해."
+    },
+    {
+      "korean": "비상",
+      "english": "emergency; crisis situation",
+      "example": "비상시에는 이 번호로 연락하세요.",
+      "example_en": "In case of emergency, contact this number.",
+      "notes": "비(非 not/unusual) + 상(常 normal). Emergency, crisis. Common: 비상구(emergency exit), 비상벨(emergency bell), 비상사태(state of emergency). Related: 긴급(urgent emergency)."
+    },
+    {
+      "korean": "신속하다",
+      "english": "to be quick; to be prompt",
+      "example": "응급 상황에서는 신속한 대응이 중요해요.",
+      "example_en": "Quick response is important in emergencies.",
+      "notes": "신(迅 swift) + 속(速 fast). To be quick, prompt. Formal term. Adverb: 신속하게(quickly), 신속히(swiftly). Essential in emergencies. Related: 빠르다(fast, casual)."
+    },
+    {
+      "korean": "재난",
+      "english": "disaster; calamity",
+      "example": "재난이 발생했을 때 대피 경로를 알아야 해요.",
+      "example_en": "You need to know evacuation routes when a disaster occurs.",
+      "notes": "재(災 disaster) + 난(難 difficulty). Disaster, calamity. Natural or man-made. Common: 자연재난(natural disaster), 재난 방송(disaster broadcast), 재난 문자(emergency text alert)."
+    },
+    {
+      "korean": "구조",
+      "english": "rescue; relief",
+      "example": "소방관이 빠르게 구조 작업을 했어요.",
+      "example_en": "Firefighters quickly conducted rescue operations.",
+      "notes": "구(救 rescue) + 조(助 help). Rescue, relief. Verb: 구조하다(to rescue). Common: 구조대(rescue team), 119 구조대(119 rescue squad). Related: 구출(rescue from danger)."
+    },
+    {
+      "korean": "안전",
+      "english": "safety; security",
+      "example": "안전이 제일 중요해요.",
+      "example_en": "Safety is most important.",
+      "notes": "안(安 safe/peaceful) + 전(全 complete/whole). Safety, security. Essential concept. Common: 안전 제일(safety first), 안전 교육(safety training), 안전 수칙(safety rules). Adjective: 안전하다(safe)."
+    },
+    {
+      "korean": "화재",
+      "english": "fire (formal); conflagration",
+      "example": "건물에서 화재가 발생했어요.",
+      "example_en": "A fire broke out in the building.",
+      "notes": "화(火 fire) + 재(災 disaster). Fire (formal term), conflagration. More formal than 불. Common: 화재 경보(fire alarm), 화재 신고(fire report). Verb: 화재가 나다(fire breaks out)."
+    },
+    {
+      "korean": "산불",
+      "english": "forest fire; wildfire",
+      "example": "건조한 날씨에 산불이 자주 나요.",
+      "example_en": "Forest fires occur frequently in dry weather.",
+      "notes": "산(山 mountain) + 불(fire). Forest fire, wildfire. Serious problem in spring in Korea. Prevention: 산불 조심(watch for forest fires). Related: 산불 진화(firefighting)."
+    },
+    {
+      "korean": "응급 연락처",
+      "english": "emergency contact",
+      "example": "응급 연락처를 적어 두세요.",
+      "example_en": "Write down your emergency contact information.",
+      "notes": "응급(emergency) + 연락처(連絡處 contact information). Emergency contact. Important to have readily available. ICE (In Case of Emergency) in phones. Related: 비상 연락망(emergency contact network)."
+    },
+    {
+      "korean": "환자",
+      "english": "patient; sick person",
+      "example": "병원에 환자가 많아요.",
+      "example_en": "There are many patients at the hospital.",
+      "notes": "환(患 suffer from illness) + 자(者 person). Patient, sick person. Medical term. Common: 응급 환자(emergency patient), 입원 환자(hospitalized patient), 외래 환자(outpatient)."
+    },
+    {
+      "korean": "구급상자",
+      "english": "first aid kit; emergency kit",
+      "example": "집에 구급상자를 준비해 두세요.",
+      "example_en": "Keep a first aid kit ready at home.",
+      "notes": "구급(救急 emergency rescue) + 상자(箱子 box). First aid kit. Essential for emergencies. Contains: 붕대(bandages), 소독약(disinfectant), 반창고(band-aids). Should be in every home/car."
     }
   ],
   "한국 문화 (Korean Culture)": [
