@@ -67,6 +67,22 @@ Korean learning tool for beginners (TOPIK 1 level). Single-file web app deployed
 const AGAIN = 0, HARD = 2, GOOD = 3, EASY = 5;
 ```
 
+## DrillEngine Architecture
+All drills use a shared `DrillEngine()` that owns the lifecycle: session iteration, showCard, reveal, setupRating, rate, advance, showSummary. Each drill is a config object with:
+- `renderCard(item, prog, onReveal)` — renders the card UI, calls `onReveal(result)` when ready
+- `renderReveal(item, result, prog)` — renders the reveal UI with rating buttons. Return `false` to skip automatic `setupRating` (used by grammar exercises, reading, dialogue)
+- `ratingDescs` — optional `{again, hard, good, easy}` labels for rating buttons
+
+### Drill patterns
+- **Standard drills** (Vocab, Grammar, Error Correction): `renderCard` → user interacts → `onReveal()` → `renderReveal` shows answer + rating buttons → DrillEngine wires up rating
+- **Complex drills** (Reading, Dialogue): `renderCard` manages sub-steps (questions/turns) internally, calls `engine.setupRating(id)` directly on the last step. `renderReveal` returns `false`
+- **Auto-graded option drills** (Multiple Choice, Listening, Cloze): Handle grading inline via `engine.autoGrade(id, isCorrect)` + `engine.autoAdvance()`
+
+### Helper functions
+- `drillHeader(title, prog)` — quit button + counter + progress bar HTML
+- `ratingButtonsHtml(cardId, descs)` — rating buttons with interval predictions
+- `getDistractors(entry, cat, field)` — picks 3 wrong options from vocab pool (module-level)
+
 ## Development Notes
 - Large file: use incremental Edit, never Write the whole index.html
 - Service worker cache version must be bumped on data file changes
