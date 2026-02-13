@@ -82,6 +82,18 @@ All drills use a shared `DrillEngine()` that owns the lifecycle: session iterati
 - `drillHeader(title, prog)` — quit button + counter + progress bar HTML
 - `ratingButtonsHtml(cardId, descs)` — rating buttons with interval predictions
 - `getDistractors(entry, cat, field)` — picks 3 wrong options from vocab pool (module-level)
+- `setupOptionHandlers(onSelect, extraKeys)` — wires click+keyboard on `.option-btn`, double-fire guard via `fired` flag
+- `setupNextButton(engine)` — wires click+Enter/Space on `#next-btn` to `engine.autoAdvance()`
+- `setupTextInput(onReveal, timerSeconds)` — wires Enter/Escape/Show Answer on `.answer-input`, starts timer if timed mode
+
+### Constants
+- `SESSION` — cards per session: `{vocab: 12, grammar: 12, mc: 12, listening: 10, mixed: 15, cloze: 12, error: 10, reading: 8, dialogue: 8}`
+- `TIMER` — seconds per card: `{vocab: 15, grammar: 20, mc: 12, listening: 15, cloze: 12, error: 25, reading: 30}`
+
+### Robustness
+- `debouncedSync()` — debounces Firestore writes to 2s of inactivity (called from `SRSEngine.save()`)
+- `validateVocab(data)` — schema check on vocab load (verifies arrays + required fields)
+- Category select supports number key shortcuts (0=All, 1-N=categories)
 
 ## Development Notes
 - Large file: use incremental Edit, never Write the whole index.html
