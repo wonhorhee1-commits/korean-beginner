@@ -2634,6 +2634,62 @@
       "example": "영수증 주세요.",
       "example_en": "Please give me a receipt.",
       "notes": "영(領 receive) appears in 영토(territory), 영향(influence). 수(受 accept) + 증(證 proof) appears in 증명(proof), 보증(guarantee). Essential for expenses/returns."
+    },
+    {
+      "korean": "일행",
+      "english": "party / group / companions",
+      "example": "일행이 몇 명이세요?",
+      "example_en": "How many people in your party?",
+      "notes": "일(一 one) appears in 일본(Japan), 일요일(Sunday). 행(行 go/row) appears in 여행(travel), 은행(bank). Common restaurant question for seating."
+    },
+    {
+      "korean": "인분",
+      "english": "serving / portion (for people)",
+      "example": "김치찌개 2인분 주세요.",
+      "example_en": "Two servings of kimchi stew, please.",
+      "notes": "인(人 person) + 분(分 portion) appears in 부분(part), 분석(analysis). Counter for food servings. 1인분(one serving), 2인분(two servings). Essential for ordering."
+    },
+    {
+      "korean": "테이블",
+      "english": "table",
+      "example": "테이블이 비었어요?",
+      "example_en": "Is there a table available?",
+      "notes": "Loanword from English 'table.' Used in restaurants. Native Korean: 상(table for eating), 탁자(table furniture). Modern restaurants use 테이블 more commonly."
+    },
+    {
+      "korean": "간",
+      "english": "saltiness / seasoning level",
+      "example": "간이 어때요? 짜요?",
+      "example_en": "How's the seasoning? Is it salty?",
+      "notes": "Native Korean for seasoning/taste level. 간을 맞추다(adjust seasoning), 간이 세다(too salty), 간이 약하다(bland). Important for Korean home cooking."
+    },
+    {
+      "korean": "주문 받으세요",
+      "english": "please take our order",
+      "example": "저기요, 주문 받으세요.",
+      "example_en": "Excuse me, please take our order.",
+      "notes": "Polite phrase to call waiter. 주문(注文 order) + 받다(receive) + -으세요(polite imperative). More polite than just 주문할게요."
+    },
+    {
+      "korean": "먹고 갈게요",
+      "english": "I'll eat here / for here",
+      "example": "포장이요, 아니면 먹고 가세요? - 먹고 갈게요.",
+      "example_en": "To go or for here? - I'll eat here.",
+      "notes": "Phrase. 먹다(eat) + -고(and) + 가다(go) + -ㄹ게요(I will). Opposite: 가져갈게요(I'll take it to go). Common at casual restaurants and cafes."
+    },
+    {
+      "korean": "가져갈게요",
+      "english": "I'll take it to go",
+      "example": "가져갈게요. 포장해 주세요.",
+      "example_en": "I'll take it to go. Please pack it up.",
+      "notes": "Phrase. 가져가다(to take away) + -ㄹ게요(I will). Alternative to 포장해 주세요. Used when ordering takeout or at cafes."
+    },
+    {
+      "korean": "주문서",
+      "english": "order form / order slip",
+      "example": "주문서에 체크해 주세요.",
+      "example_en": "Please check your selections on the order form.",
+      "notes": "주문(注文 order) + 서(書 document) appears in 신청서(application), 서류(documents). Some Korean restaurants (especially BBQ) use paper order forms."
     }
   ],
   "시간 & 요일 (Time & Days)": [
@@ -3366,6 +3422,55 @@
       "example": "대학생 때 옥탑방에서 살았어요.",
       "example_en": "I lived in a rooftop room when I was a college student.",
       "notes": "옥(屋 house) + 탑(塔 tower) + 방(room). Small rooms on building rooftops, typically affordable student/artist housing. Cultural reference: drama 옥탑방 왕세자."
+    },
+    {
+      "korean": "슈퍼마켓",
+      "english": "supermarket",
+      "example": "슈퍼마켓에서 장을 봤어요.",
+      "example_en": "I did grocery shopping at the supermarket.",
+      "notes": "Loanword from English 'supermarket.' Larger than 편의점(convenience store), smaller than 대형마트(hypermarket). Also shortened to: 슈퍼."
+    },
+    {
+      "korean": "코인 노래연습장",
+      "english": "coin karaoke",
+      "example": "친구들과 코인 노래연습장에 갔어요.",
+      "example_en": "I went to a coin karaoke with friends.",
+      "notes": "코인(coin) + 노래(song) + 연습장(練習場 practice place). Pay-per-song karaoke booths, cheaper than traditional 노래방. Popular with students."
+    },
+    {
+      "korean": "스터디 카페",
+      "english": "study cafe",
+      "example": "요즘 스터디 카페에서 공부해요.",
+      "example_en": "These days I study at study cafes.",
+      "notes": "Loanwords: study + café. Quiet cafes designed for studying, often with private desks, lockers, unlimited coffee. Popular alternative to 도서관(library)."
+    },
+    {
+      "korean": "당구장",
+      "english": "billiards hall / pool hall",
+      "example": "당구장에서 당구 치는 거 좋아해요.",
+      "example_en": "I like playing billiards at the pool hall.",
+      "notes": "당구(撞球 billiards, loanword from Japanese) + 장(場 place). Popular social activity. Also: 포켓볼(pocket ball, another billiards variant)."
+    },
+    {
+      "korean": "만화 카페",
+      "english": "comic book cafe / manga cafe",
+      "example": "주말에 만화 카페에서 만화책을 읽었어요.",
+      "example_en": "I read comic books at a manga cafe on the weekend.",
+      "notes": "만화(漫畫 comic) + 카페(café). Libraries of comics/manga, private reading rooms, drinks included. Also called: 만화방. Popular for relaxation."
+    },
+    {
+      "korean": "DVD방",
+      "english": "DVD room / private movie room",
+      "example": "영화 보러 DVD방 갈까요?",
+      "example_en": "Shall we go to a DVD room to watch a movie?",
+      "notes": "DVD(loanword) + 방(room). Private rooms to watch movies with friends, equipped with sofas and screens. Alternative to theaters for small groups."
+    },
+    {
+      "korean": "세차장",
+      "english": "car wash",
+      "example": "차가 더러워서 세차장에 갔어요.",
+      "example_en": "My car was dirty so I went to the car wash.",
+      "notes": "세(洗 wash) appears in 세탁(laundry), 세수(face washing). 차(車 vehicle) + 장(場 place). Both self-service and full-service car washes available."
     }
   ],
   "방향 & 위치 (Directions)": [
@@ -3704,6 +3809,48 @@
       "example": "세로로 세워 주세요.",
       "example_en": "Please stand it up vertically.",
       "notes": "Native Korean. 세우다(to stand/erect) + -로(direction). Contrasts with 가로(horizontal). Used in dimensions and orientation."
+    },
+    {
+      "korean": "방향",
+      "english": "direction",
+      "example": "어느 방향으로 가야 해요?",
+      "example_en": "Which direction should I go?",
+      "notes": "방(方 direction) appears in 지방(region), 동방(east). 향(向 face/toward) appears in 지향(orientation), 향하다(to face). Essential for navigation."
+    },
+    {
+      "korean": "표지판",
+      "english": "signpost / sign / signboard",
+      "example": "표지판을 잘 보세요.",
+      "example_en": "Look carefully at the signs.",
+      "notes": "표(標 mark) appears in 목표(goal), 표시(indication). 지(誌 record). 판(板 board) appears in 간판(signboard), 칠판(blackboard). Important for navigation."
+    },
+    {
+      "korean": "인도",
+      "english": "sidewalk / pavement",
+      "example": "인도로 걸어가세요.",
+      "example_en": "Please walk on the sidewalk.",
+      "notes": "인(人 person) + 도(道 road) appears in 길(road), 도로(roadway). Pedestrian pathway. Different from 차도(車道 roadway for cars). Note: also means 'India' in different context."
+    },
+    {
+      "korean": "차도",
+      "english": "roadway / road (for vehicles)",
+      "example": "차도로 걸으면 위험해요.",
+      "example_en": "It's dangerous to walk on the roadway.",
+      "notes": "차(車 vehicle) + 도(道 road). Road for vehicles, contrasts with 인도(人道 sidewalk). Safety reminder: always use sidewalks."
+    },
+    {
+      "korean": "거리",
+      "english": "distance / street",
+      "example": "여기서 거리가 얼마나 돼요?",
+      "example_en": "How far is it from here?",
+      "notes": "거(距 distance) appears in 거리감(sense of distance). 리(里 village/unit). Dual meaning: distance measurement or street/road. Context determines meaning."
+    },
+    {
+      "korean": "반대편",
+      "english": "opposite side",
+      "example": "은행은 길 반대편에 있어요.",
+      "example_en": "The bank is on the opposite side of the street.",
+      "notes": "반대(反對 opposite/contrary) + 편(side). 반(反 oppose) appears in 반성(reflection), 반응(reaction). 대(對 pair) appears in 대화(conversation). Useful for giving directions."
     }
   ],
   "쇼핑 (Shopping)": [
