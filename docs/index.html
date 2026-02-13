@@ -34,7 +34,7 @@
   --surface2: #1a2745;
   --border: #2a3a5e;
   --text: #e0d8cc;
-  --dim: #8899aa;
+  --dim: #99aabb;
   --blue: #60a5fa;
   --green: #4ade80;
   --red: #f87171;
@@ -274,7 +274,7 @@ h2 {
   flex: 1;
   min-width: 70px;
   min-height: 44px;
-  padding: 12px 8px;
+  padding: 12px 16px;
   border-radius: 10px;
   border: 1px solid var(--border);
   background: var(--surface);
@@ -318,7 +318,7 @@ h2 {
   height: 100%;
   background: linear-gradient(90deg, var(--blue), var(--cyan));
   border-radius: 2px;
-  transition: width 0.3s;
+  transition: width 0.3s ease-out;
   box-shadow: 0 0 8px rgba(74,144,217,0.3);
 }
 
@@ -348,7 +348,9 @@ h2 {
 .option-btn:hover { background: var(--surface2); border-color: var(--blue); box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
 .option-btn:active { transform: scale(0.97); }
 .option-btn.correct { border-color: var(--green); background: rgba(58,157,92,0.1); color: var(--green); font-weight: bold; }
+.option-btn.correct::before { content: '\2713 '; }
 .option-btn.wrong { border-color: var(--red); background: rgba(217,68,82,0.08); color: var(--red); }
+.option-btn.wrong::before { content: '\2717 '; }
 
 /* Cloze */
 .cloze-sentence {
@@ -455,7 +457,7 @@ h2 {
   color: var(--dim);
   cursor: pointer;
   font-size: 0.9em;
-  padding: 12px 8px;
+  padding: 12px 16px;
   margin-bottom: 10px;
 }
 .back-btn:hover { color: var(--text); }
@@ -830,6 +832,9 @@ h2 {
 @media (max-height: 500px) {
   .menu button { padding: 10px 14px; }
   .menu { gap: 4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 </style>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
@@ -1455,6 +1460,9 @@ function setupTextInput(onReveal, timerSeconds) {
     if (e.key === 'Enter') reveal();
     if (e.key === 'Escape') { clearTimer(); showMenu(); }
   };
+  document.onkeydown = e => {
+    if (e.key === 'Escape') { clearTimer(); showMenu(); }
+  };
 }
 
 // ===== VOCAB FLASHCARD DRILL =====
@@ -2032,10 +2040,13 @@ function startDialogueDrill() {
       <div class="dialogue-area">${bubblesHtml}</div>
       <div class="dialogue-options">${optionsHtml}</div>`;
 
+    let dlgFired = false;
     document.querySelectorAll('.option-btn').forEach(btn => {
       btn.onclick = () => {
         const chosen = btn.dataset.text;
         if (chosen === turn.line) {
+          if (dlgFired) return;
+          dlgFired = true;
           answered.push(blankIdx);
           runDialogue(engine, id, drill, blankIdx + 1, answered, prog);
         } else {
@@ -2129,10 +2140,22 @@ function showProgress() {
     const parts = c.card_id.split(':');
     let label = c.card_id;
     try {
-      const type = parts[0], cat = parts[1], pidx = parseInt(parts[2]);
-      const data = type === 'vocab' || type === 'cloze' ? vocabData : grammarData;
-      if (data[cat] && data[cat][pidx]) {
-        label = type === 'vocab' || type === 'cloze' ? data[cat][pidx].korean : data[cat][pidx].pattern;
+      const type = parts[0];
+      if (type === 'err') {
+        const idx = parseInt(parts[1]);
+        if (errorDrills[idx]) label = errorDrills[idx].incorrect;
+      } else if (type === 'read') {
+        const idx = parseInt(parts[1]);
+        if (readingDrills[idx]) label = readingDrills[idx].passage.substring(0, 30) + '...';
+      } else if (type === 'dlg') {
+        const idx = parseInt(parts[1]);
+        if (dialogueDrills[idx]) label = dialogueDrills[idx].title;
+      } else {
+        const cat = parts[1], pidx = parseInt(parts[2]);
+        const data = type === 'vocab' || type === 'cloze' ? vocabData : grammarData;
+        if (data[cat] && data[cat][pidx]) {
+          label = type === 'vocab' || type === 'cloze' ? data[cat][pidx].korean : data[cat][pidx].pattern;
+        }
       }
     } catch(e) {}
     weakRows += `<tr><td>${escHtml(label)}</td><td>${Math.round(c.accuracy*100)}%</td><td>${c.total_reviews}</td><td>${c.ease_factor.toFixed(1)}</td></tr>`;
