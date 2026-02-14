@@ -1320,11 +1320,11 @@ function showCategorySelect(type) {
       }).join('')}
     </div>`;
   setKeyHandler(e => {
-    if (e.key === 'Escape') showMenu();
-    else if (e.key === '0') startDrill(type, null);
+    if (e.key === 'Escape') { e.preventDefault(); showMenu(); }
+    else if (e.key === '0') { e.preventDefault(); startDrill(type, null); }
     else {
       const num = parseInt(e.key);
-      if (num >= 1 && num <= cats.length) startDrill(type, cats[num - 1]);
+      if (num >= 1 && num <= cats.length) { e.preventDefault(); startDrill(type, cats[num - 1]); }
     }
   });
 }
